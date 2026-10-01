@@ -1,151 +1,376 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0f172a,50:4f46e5,100:06b6d4&text=Maria%20Habib&fontColor=ffffff&fontSize=62&fontAlignY=42&desc=Software%20Engineer%20%C2%B7%20AI4SE%20%C2%B7%20Program%20Analysis&descSize=18&descAlignY=64&animation=fadeIn" width="100%" alt="Maria Habib"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:050816,50:111C44,100:6C3BFF&text=MARIA%20HABIB&fontColor=FFFFFF&fontSize=52&animation=fadeIn&stroke=8B7CFF&strokeWidth=1&desc=SOFTWARE%20ENGINEER%20%2F%2F%20AI4SE%20%2F%2F%20PROGRAM%20ANALYSIS&descSize=15&descAlignY=65"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=I+study+what+code+similarity+actually+preserves;Building+experiments%2C+not+just+applications;Robustness+vs.+discrimination+in+source-code+similarity" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2200&pause=600&color=8B7CFF&center=true&vCenter=true&repeat=true&width=850&height=45&lines=%3E+analyzing+source+code...;%3E+measuring+structural+similarity...;%3E+probing+behavioral+signals...;%3E+testing+robustness+against+transformations...;%3E+building+reproducible+experiments..." />
 
 <br/>
 
-<a href="https://github.com/maria-habib17"><img src="https://img.shields.io/badge/GitHub-maria--habib17-0f172a?style=flat-square&logo=github&logoColor=white"/></a>
-<a href="mailto:mariahabib1059@gmail.com"><img src="https://img.shields.io/badge/Email-get_in_touch-4f46e5?style=flat-square&logo=gmail&logoColor=white"/></a>
-<a href="https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/"><img src="https://img.shields.io/badge/Article-CodeSpectra-06b6d4?style=flat-square&logo=readme&logoColor=white"/></a>
+<a href="https://github.com/maria-habib17"><img src="https://img.shields.io/badge/◈_GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="mailto:mariahabib1059@gmail.com"><img src="https://img.shields.io/badge/◈_CONTACT-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
+<a href="https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/"><img src="https://img.shields.io/badge/◈_RESEARCH_LOG-0D1117?style=for-the-badge&logo=bookstack&logoColor=8B7CFF"/></a>
 
 </div>
 
 <br/>
+
+```text id="1wmztq"
+╭──────────────────────────────────────────────────────────────────────╮
+│  MARIA://PROFILE                                                    │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  ROLE        Software Engineer                                      │
+│  DOMAIN      AI × Software Engineering                              │
+│  SIGNAL      Program Analysis / Code Intelligence                   │
+│  INTEREST    Structure × Behavior × Similarity                      │
+│                                                                      │
+│  STATUS      ● RESEARCH MODE                                        │
+│  ACTIVE      SIMPROBE                                               │
+│  PARALLEL    BEHAVCLONE                                             │
+│  ORIGIN      CODESPECTRA                                            │
+│                                                                      │
+╰──────────────────────────────────────────────────────────────────────╯
+```
 
 <div align="center">
 
-### Code similarity has a trade-off nobody mentions
+### `// I study what survives when code changes.`
 
-*Make a comparison robust to refactoring, and unrelated programs start looking identical too.*
-*I build controlled experiments to measure exactly where that line is.*
+Not just whether two programs **look alike** —  
+but what happens to similarity when syntax, structure, and organization change.
 
 </div>
 
-<br/>
+---
+
+## `01 // RESEARCH NETWORK`
+
+<div align="center">
+
+```text id="mr3lmf"
+                         ┌──────────────────────┐
+                         │      SOURCE CODE     │
+                         └──────────┬───────────┘
+                                    │
+                     ┌──────────────┴──────────────┐
+                     │                             │
+                     ▼                             ▼
+             ┌───────────────┐             ┌───────────────┐
+             │   STRUCTURE   │             │   BEHAVIOR    │
+             └───────┬───────┘             └───────┬───────┘
+                     │                             │
+                     ▼                             ▼
+              ┌─────────────┐               ┌─────────────┐
+              │  SIMPROBE   │               │ BEHAVCLONE  │
+              └──────┬──────┘               └──────┬──────┘
+                     │                             │
+                     └──────────────┬──────────────┘
+                                    │
+                                    ▼
+                          ┌──────────────────┐
+                          │ CODE INTELLIGENCE│
+                          └────────┬─────────┘
+                                   │
+                                   ▼
+                     ┌──────────────────────────┐
+                     │  EMPIRICAL SE EVIDENCE  │
+                     └──────────────────────────┘
+
+                  ▲
+                  │
+           ┌──────┴──────┐
+           │ CODESPECTRA │
+           │   ORIGIN    │
+           └─────────────┘
+```
+
+</div>
 
 ---
 
-## Projects
+## `02 // ACTIVE SYSTEM : SIMPROBE`
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="58%" valign="top">
 
-### SimProbe
-`experimental research`
+### `SIMPROBE://CORE`
 
-Controlled experiments on the **robustness vs. discrimination** trade-off of similarity representations.
+A controlled experimental framework for studying how source-code similarity representations respond to **provenance-preserving transformations**.
 
-Identifier renaming · method reordering · class splitting · control similarity
+Instead of asking only:
 
-[**View repositories →**](https://github.com/maria-habib17?tab=repositories)
+> **How similar are these programs?**
 
-</td>
-<td width="33%" valign="top">
+SimProbe investigates a harder question:
 
-### BehavClone
-`research prototype`
+> **Can a representation become more robust to legitimate structural change without also making unrelated programs look more similar?**
 
-Whole-submission code comparison that keeps **structural, cohort-relative and behavioural evidence separate** instead of one plagiarism score.
+<br/>
 
-JPlag 6.3.0 baseline · open negative results
-
-[**View on GitHub →**](https://github.com/maria-habib17/behavclone)
+`ROBUSTNESS` × `DISCRIMINATION`
 
 </td>
-<td width="33%" valign="top">
 
-### CodeSpectra
-`final-year project`
+<td width="42%" valign="top">
 
-Academic clone detection across lexical, structural and semantic similarity of student programs (Type-1 to Type-4).
+```text id="54p81p"
+SYSTEM STATUS
+────────────────────────
 
-[**Read the article →**](https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/)
+EXP_001     COMPLETE  ●
+EXP_002     COMPLETE  ●
+EXP_003     ACTIVE    ◉
+
+PROTOCOL    FROZEN    ◆
+BASE        12/12     ✓
+TESTS       36/36     ✓
+
+NEXT:
+TRANSFORMATION_MATRIX
+```
 
 </td>
 </tr>
 </table>
 
-<br/>
+### `SIMPROBE://PIPELINE`
 
-> [!NOTE]
-> **Latest finding (BehavClone, synthetic cohort of 16 submissions, 120 pairs):**
-> 24/24 related pairs reached normalized similarity 1.0, but so did 48/96 unrelated control pairs.
-> Normalization recovered similarity across transformations, and on this fixture it also removed information needed to tell independent programs apart.
-> I'm publishing the failure and designing the next experiment around it.
+```text id="4rsy4a"
+ ORIGINAL PROGRAM
+       │
+       ├───────────────┬────────────────┬─────────────────┐
+       │               │                │                 │
+       ▼               ▼                ▼                 ▼
+ IDENTIFIER        METHOD           CLASS             CONTROL
+  RENAME           REORDER          SPLIT             PROGRAM
+       │               │                │                 │
+       └───────────────┴────────┬───────┴─────────────────┘
+                                │
+                                ▼
+                     REPRESENTATION LAYER
+                                │
+                    ┌───────────┴───────────┐
+                    │                       │
+                    ▼                       ▼
+              ORDER-SENSITIVE       STRUCTURE-AWARE
+                    │                       │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                         SIMILARITY MATRIX
+                                │
+                 ┌──────────────┴──────────────┐
+                 ▼                             ▼
+          RELATED RETENTION              CONTROL SHIFT
+                 │                             │
+                 └──────────────┬──────────────┘
+                                ▼
+                  ROBUSTNESS–DISCRIMINATION
+                           TRADEOFF
+```
+
+### `SIMPROBE://EXPERIMENTS`
+
+| SIGNAL | EXPERIMENT | STATE |
+|:--|:--|:--:|
+| `R₁ → R₆` | Representation Ladder | `✓ COMPLETE` |
+| `C₀ ↔ C₁` | Structure-Aware Comparison | `✓ COMPLETE` |
+| `12×4` | Broader Controlled Validation | `◉ ACTIVE` |
 
 ---
 
-## How the work connects
+## `03 // BEHAVCLONE`
 
-```mermaid
-flowchart LR
-    A["CodeSpectra<br/><sub>clone detection</sub>"] --> B{"What does<br/>similarity mean?"}
-    B --> C["SimProbe<br/><sub>robustness vs. discrimination</sub>"]
-    B --> D["BehavClone<br/><sub>structure + behaviour</sub>"]
-    C --> E(["Evidence for<br/>human review"])
-    D --> E
+<table>
+<tr>
+<td width="42%" valign="top">
+
+```text id="h1vjgp"
+BEHAVCLONE://SIGNAL
+
+      SOURCE
+         │
+         ▼
+   ┌───────────┐
+   │ EXECUTION │
+   └─────┬─────┘
+         │
+         ▼
+   ┌───────────┐
+   │ BEHAVIOR  │
+   └─────┬─────┘
+         │
+         ▼
+   ┌───────────┐
+   │  SIGNALS  │
+   └─────┬─────┘
+         │
+         ▼
+      COMPARE
+```
+
+</td>
+
+<td width="58%" valign="top">
+
+### Beyond appearance.
+
+**BehavClone** explores source-code similarity from the behavioral side of the problem.
+
+Two programs may:
+
+`look different`
+
+`use different structures`
+
+`organize logic differently`
+
+...yet exhibit related computational behavior.
+
+The project explores signals that can help investigate that space.
+
+<br/>
+
+`BEHAVIORAL SIMILARITY`  
+`PROGRAM EXECUTION`  
+`SEMANTIC SIGNALS`  
+`CODE ANALYSIS`
+
+</td>
+</tr>
+</table>
+
+---
+
+## `04 // CODESPECTRA : ORIGIN POINT`
+
+<div align="center">
+
+### `LEXICAL → STRUCTURAL → SEMANTIC`
+
+</div>
+
+**CodeSpectra** began my exploration of code-clone detection and source-code similarity.
+
+It investigates multiple forms of similarity between student programs through a multi-stage analysis approach.
+
+```text id="4m5vjd"
+TYPE–1             TYPE–2              TYPE–3              TYPE–4
+  │                   │                   │                   │
+  ▼                   ▼                   ▼                   ▼
+EXACT             RENAMED              MODIFIED            SEMANTIC
+  │                   │                   │                   │
+  └───────────────────┴─────────┬─────────┴───────────────────┘
+                                │
+                                ▼
+                       SIMILARITY ANALYSIS
+```
+
+<div align="center">
+
+<a href="https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/">
+<img src="https://img.shields.io/badge/READ_THE_STORY_↗-CodeSpectra:_The_Illusion_of_Easy_Coding-6C3BFF?style=for-the-badge"/>
+</a>
+
+</div>
+
+---
+
+## `05 // RESEARCH TRAJECTORY`
+
+```text id="w8rd7b"
+2025+ ───────────────────────────────────────────────────────────►
+
+       CODESPECTRA
+           │
+           │   "How can different clone types be detected?"
+           │
+           ▼
+     CODE SIMILARITY
+           │
+           ├─────────────────────────────┐
+           │                             │
+           ▼                             ▼
+       SIMPROBE                      BEHAVCLONE
+           │                             │
+     representation                    behavior
+     transformations                   execution
+     robustness                        semantics
+     discrimination                    signals
+           │                             │
+           └──────────────┬──────────────┘
+                          │
+                          ▼
+                  CODE INTELLIGENCE
+                          │
+                          ▼
+              AI FOR SOFTWARE ENGINEERING
 ```
 
 ---
 
-## Current lab status
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**SimProbe / experiment-003**
-
-| Stage | Status |
-|---|---|
-| Protocol | 🔒 frozen |
-| Fixture specification | 🔒 frozen |
-| 12 base programs | ✅ pass |
-| Behaviour tests | ✅ 36 / 36 |
-| Transformations | ⏭️ next |
-
-</td>
-<td width="50%" valign="top">
-
-**What I care about**
-
-The goal isn't another similarity score.
-
-It's understanding **what information a score actually preserves**, from how code looks, to how it's structured, to how it behaves.
-
-</td>
-</tr>
-</table>
-
----
-
-## Stack
+## `06 // TOOLCHAIN`
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,python,js,mysql,git,github,vscode&theme=dark" alt="tech stack"/>
-
-<br/><br/>
-
-`AI4SE` · `Program Analysis` · `Code Similarity` · `Clone Detection` · `Empirical SE` · `Reproducibility`
-
-</div>
-
----
-
-## GitHub activity
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=maria-habib17&show_icons=true&hide_border=true&bg_color=0f172a&title_color=818cf8&icon_color=06b6d4&text_color=e2e8f0&rank_icon=github" alt="stats"/>
-<img width="37%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maria-habib17&layout=compact&hide_border=true&bg_color=0f172a&title_color=818cf8&text_color=e2e8f0" alt="top languages"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=maria-habib17&hide_border=true&area=true&bg_color=0f172a&color=818cf8&line=4f46e5&point=06b6d4&area_color=4f46e5" width="88%" alt="activity graph"/>
+<img src="https://skillicons.dev/icons?i=java,python,js,mysql,git,github,vscode&theme=dark"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PROGRAM_ANALYSIS-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/AI4SE-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/EMPIRICAL_SE-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/CODE_INTELLIGENCE-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/CLONE_DETECTION-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/REPRODUCIBILITY-111827?style=flat-square"/>
+
+<br/><br/>
+
+```text id="rqit52"
+LANGUAGES       Java · Python · JavaScript · SQL
+ENGINEERING     Git · Testing · Reproducible Workflows
+RESEARCH        Controlled Experiments · Empirical Evaluation
+INTERESTS       Program Analysis · AI4SE · Code Intelligence
+```
+
+</div>
+
+---
+
+## `07 // TELEMETRY`
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=maria-habib17&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maria-habib17&layout=compact&hide_border=true&theme=transparent"/>
+
+<br/>
+
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=maria-habib17&theme=github-compact&hide_border=true&area=true"/>
+
+</div>
+
+---
+
+## `08 // SYSTEM PHILOSOPHY`
+
+<div align="center">
+
+```text id="uqhkwj"
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║          CODE IS MORE THAN THE TEXT THAT REPRESENTS IT.        ║
+║                                                                ║
+║             syntax  ≠  structure  ≠  behavior                 ║
+║                                                                ║
+║       understanding the differences is the interesting part.  ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
@@ -153,12 +378,33 @@ It's understanding **what information a score actually preserves**, from how cod
 
 <div align="center">
 
-### Let's talk about code similarity, program analysis or evaluation design
+### `// ESTABLISH CONNECTION`
 
-<a href="mailto:mariahabib1059@gmail.com"><img src="https://img.shields.io/badge/Email-mariahabib1059@gmail.com-4f46e5?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<br/>
 
-<sub><i>From how code looks, to how it is structured, to how it behaves.</i></sub>
+<a href="https://github.com/maria-habib17">
+<img src="https://img.shields.io/badge/GITHUB-OPEN_PROFILE-0D1117?style=for-the-badge&logo=github"/>
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:0f172a,50:4f46e5,100:06b6d4" width="100%" alt=""/>
+<a href="mailto:mariahabib1059@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-SEND_SIGNAL-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+</a>
+
+<a href="https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/">
+<img src="https://img.shields.io/badge/CODESPECTRA-READ_ARTICLE-0D1117?style=for-the-badge&logo=bookstack&logoColor=8B7CFF"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=maria-habib17&label=PROFILE+REQUESTS&style=flat-square"/>
+
+<br/><br/>
+
+```text id="d6bdbj"
+maria@research:~$ ./explore --structure --behavior --evidence
+> system online.
+```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=150&section=footer&color=0:050816,50:111C44,100:6C3BFF"/>
 
 </div>
