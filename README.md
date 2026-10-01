@@ -34,47 +34,47 @@
 ```yaml
 name: Maria Habib
 role: Software Engineer
-focus:
+
+research:
   - AI for Software Engineering
   - Program Analysis
   - Source-Code Similarity
-  - Developer Tools
+  - Behavioral Analysis
 
-currently_building: SimProbe
-research_style:
+building:
+  - SimProbe
+  - BehavClone
+
+foundation:
+  - CodeSpectra
+
+approach:
   - controlled experiments
-  - reproducibility
   - empirical evaluation
-
-curiosity:
-  "How much of a program can change
-   before our representation stops
-   recognizing it?"
+  - reproducible research
 ```
 
 </td>
 
 <td width="45%" valign="top">
 
-### `> current_state`
+### `> research_signal`
 
 ```text
 ╭──────────────────────────────╮
-│  SIMPROBE                    │
-│                              │
-│  EXP 001  ██████████  done  │
-│  EXP 002  ██████████  done  │
-│  EXP 003  ██████░░░░  active│
-│                              │
-│  MODE: broader validation    │
+│  CODE → REPRESENTATION       │
+│            ↓                 │
+│       COMPARISON             │
+│            ↓                 │
+│   STRUCTURE × BEHAVIOR       │
+│            ↓                 │
+│         EVIDENCE             │
 ╰──────────────────────────────╯
+
+  SimProbe    ● ACTIVE
+  BehavClone  ● BUILDING
+  CodeSpectra ✓ FYP
 ```
-
-**Current direction**
-
-`representation` → `structure` → `robustness`
-
-`transformations` → `measurement` → `evidence`
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ curiosity:
 
 ### SimProbe
 
-**A controlled experimental framework for source-code similarity research**
+**Controlled experimentation for source-code similarity research**
 
 </div>
 
@@ -127,7 +127,7 @@ curiosity:
 
 **It's also**
 
-*"Did unrelated programs become more similar too?"*
+*"Did independently constructed programs become more similar too?"*
 
 </div>
 
@@ -137,114 +137,25 @@ curiosity:
 <tr>
 <td align="center" width="33%">
 
-### 01
-**Representation**
+### 01 · Representation
 
 How should source programs be represented before comparison?
 
 </td>
+
 <td align="center" width="33%">
 
-### 02
-**Robustness**
+### 02 · Robustness
 
-What happens when program structure changes but intended behavior is preserved?
+What survives when source structure changes?
 
 </td>
+
 <td align="center" width="33%">
 
-### 03
-**Discrimination**
+### 03 · Discrimination
 
-Can robustness improve without collapsing the distinction between unrelated programs?
-
-</td>
-</tr>
-</table>
-
----
-
-## ◈ RESEARCH TIMELINE
-
-```text
-CodeSpectra
-    │
-    │  clone detection
-    │  normalization
-    │  structural + semantic similarity
-    │
-    ▼
-Questioning similarity representations
-    │
-    ▼
-SimProbe
-    │
-    ├──── Experiment 001
-    │     Representation Ladder
-    │
-    ├──── Experiment 002
-    │     Structure-Aware Comparison
-    │
-    └──── Experiment 003
-          Broader Controlled Validation
-```
-
----
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-## 🔬 SimProbe
-
-`ACTIVE RESEARCH`
-
-Exploring the **robustness–discrimination tradeoff** in source-code similarity representations.
-
-**Current experiments**
-
-- Representation transformations
-- Structure-aware matching
-- Method-reordering robustness
-- Class-splitting robustness
-- Independently constructed controls
-- Deterministic measurement
-- Reproducible experimental fixtures
-
-**Current phase**
-
-```text
-[✓] representation study
-[✓] structure-aware study
-[●] broader validation
-[ ] cross-experiment synthesis
-[ ] external benchmark study
-```
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🔍 CodeSpectra
-
-`FINAL-YEAR PROJECT`
-
-An academic code-clone detection system developed to explore similarity between student programs.
-
-**Explored**
-
-- Type-1 → Type-4 clones
-- Lexical normalization
-- Structural similarity
-- Semantic similarity
-- Multi-stage detection
-- ML-assisted analysis
-
-### ↗ Featured writing
-
-**CodeSpectra: The Illusion of Easy Coding — Why AI Still Demands Effort**
-
-[Read the article →](https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/)
+Can robustness improve without collapsing unrelated controls?
 
 </td>
 </tr>
@@ -254,7 +165,206 @@ An academic code-clone detection system developed to explore similarity between 
 
 <div align="center">
 
-## ◇ MY TECH CONSTELLATION
+# ◈ THE PROJECT CONSTELLATION
+
+`CODE SPECTRA`　→　`BEHAVIOR`　→　`STRUCTURE`　→　`EVIDENCE`
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔬 SimProbe
+
+**`EXPERIMENTAL RESEARCH`**
+
+Studying the **robustness–discrimination tradeoff** of source-code similarity representations.
+
+```text
+EXP 001  ██████████ ✓
+EXP 002  ██████████ ✓
+EXP 003  ██████░░░░ ●
+```
+
+**Investigating**
+
+`Representations`
+
+`Method Reordering`
+
+`Class Splitting`
+
+`Identifier Renaming`
+
+`Structure-Aware Matching`
+
+`Control Similarity`
+
+`Reproducibility`
+
+</td>
+
+<td width="33%" valign="top">
+
+### 🧬 BehavClone
+
+**`BEHAVIORAL CODE ANALYSIS`**
+
+Exploring source-code similarity from the perspective of **program behavior**, moving beyond purely surface-level resemblance.
+
+```text
+SOURCE
+   ↓
+BEHAVIOR
+   ↓
+SIGNALS
+   ↓
+COMPARE
+```
+
+**Focus**
+
+`Behavioral Similarity`
+
+`Program Execution`
+
+`Code Analysis`
+
+`Semantic Signals`
+
+`Clone Analysis`
+
+`Software Engineering`
+
+</td>
+
+<td width="33%" valign="top">
+
+### 🔍 CodeSpectra
+
+**`FINAL-YEAR PROJECT`**
+
+Academic code-clone detection work exploring multiple forms of similarity between student programs.
+
+```text
+LEXICAL
+   ↓
+STRUCTURAL
+   ↓
+SEMANTIC
+   ↓
+CLONE SIGNAL
+```
+
+**Explored**
+
+`Type-1 → Type-4`
+
+`Normalization`
+
+`Structural Similarity`
+
+`Semantic Similarity`
+
+`ML-Assisted Analysis`
+
+<br/>
+
+[**↗ Read the CodeSpectra article**](https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ◈ RESEARCH EVOLUTION
+
+```text
+                            ┌───────────────┐
+                            │  CodeSpectra  │
+                            └───────┬───────┘
+                                    │
+                          code clone detection
+                                    │
+                                    ▼
+                   ┌────────────────────────────┐
+                   │ What does similarity mean?│
+                   └─────────────┬──────────────┘
+                                 │
+                 ┌───────────────┴───────────────┐
+                 ▼                               ▼
+        ┌────────────────┐              ┌────────────────┐
+        │   BehavClone   │              │    SimProbe    │
+        └───────┬────────┘              └───────┬────────┘
+                │                               │
+             behavior                       robustness
+             semantics                    discrimination
+             execution                    representation
+                │                               │
+                └───────────────┬───────────────┘
+                                ▼
+                    ┌───────────────────────┐
+                    │  CODE INTELLIGENCE    │
+                    │  THROUGH EVIDENCE     │
+                    └───────────────────────┘
+```
+
+---
+
+## ◈ CURRENT LAB STATUS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `SimProbe / experiment-003`
+
+```text
+Protocol              ██████████  FROZEN
+Fixture specification ██████████  FROZEN
+12 BASE programs      ██████████  PASS
+Behavior tests         36 / 36     PASS
+Transformations        ░░░░░░░░░░  NEXT
+```
+
+**Now:** broader controlled validation.
+
+</td>
+
+<td width="50%" valign="top">
+
+### `Research direction`
+
+```text
+surface syntax
+      │
+      ▼
+program structure
+      │
+      ▼
+program behavior
+      │
+      ▼
+empirical evidence
+```
+
+The goal is not merely to build another similarity score.
+
+The interesting part is understanding **what information that score actually preserves**.
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## ◇ TECH CONSTELLATION
 
 <br/>
 
@@ -262,27 +372,31 @@ An academic code-clone detection system developed to explore similarity between 
 
 <br/><br/>
 
-`Java`　•　`Python`　•　`JavaScript`　•　`SQL`
+`Java`　◈　`Python`　◈　`JavaScript`　◈　`SQL`
 
-`Git`　•　`GitHub`　•　`Testing`　•　`Experimental Evaluation`
+`Git`　◈　`GitHub`　◈　`Testing`　◈　`Experimental Evaluation`
 
-<br/>
+<br/><br/>
 
-### Areas I keep coming back to
+### Research Orbit
 
 `AI4SE`
 &nbsp;&nbsp; ◈ &nbsp;&nbsp;
 `Program Analysis`
 &nbsp;&nbsp; ◈ &nbsp;&nbsp;
 `Code Intelligence`
+
+`Behavioral Analysis`
+&nbsp;&nbsp; ◈ &nbsp;&nbsp;
+`Code Similarity`
 &nbsp;&nbsp; ◈ &nbsp;&nbsp;
 `Clone Detection`
 
-`Source-Code Similarity`
-&nbsp;&nbsp; ◈ &nbsp;&nbsp;
 `Empirical SE`
 &nbsp;&nbsp; ◈ &nbsp;&nbsp;
 `Developer Tools`
+&nbsp;&nbsp; ◈ &nbsp;&nbsp;
+`Reproducibility`
 
 </div>
 
@@ -292,8 +406,9 @@ An academic code-clone detection system developed to explore similarity between 
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=maria-habib17&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
-<img width="37%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maria-habib17&layout=compact&hide_border=true&theme=transparent" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=maria-habib17&show_icons=true&hide_border=true&theme=transparent&rank_icon=github"/>
+
+<img width="37%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maria-habib17&layout=compact&hide_border=true&theme=transparent"/>
 
 <br/>
 
@@ -305,22 +420,20 @@ An academic code-clone detection system developed to explore similarity between 
 
 <div align="center">
 
-## ◇ FIND ME IN THE NETWORK
+## ◇ CONNECT
 
 <br/>
 
 <a href="https://github.com/maria-habib17">
-<img src="https://img.shields.io/badge/maria--habib17-Explore_my_GitHub-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/GitHub-maria--habib17-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="mailto:mariahabib1059@gmail.com">
-<img src="https://img.shields.io/badge/mariahabib1059%40gmail.com-Let's_Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-Let's_Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<br/><br/>
-
 <a href="https://blog.ptidej.net/codespectra-the-illusion-of-easy-coding-why-ai-still-demands-effort/">
-<img src="https://img.shields.io/badge/READ-CodeSpectra_Feature-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white"/>
+<img src="https://img.shields.io/badge/Article-CodeSpectra-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white"/>
 </a>
 
 <br/><br/>
@@ -331,8 +444,8 @@ An academic code-clone detection system developed to explore similarity between 
 
 ### `Software Engineering × Program Analysis × AI`
 
-*"I don't just want to know whether two programs look similar.*  
-*I want to understand why a representation thinks they are."*
+*"From how code looks, to how it is structured,*  
+*to how it behaves."*
 
 <br/>
 
